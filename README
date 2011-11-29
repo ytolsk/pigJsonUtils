@@ -9,9 +9,9 @@ The Map type could also be supported but is not currently coded.
 
 To use you need to register the jar then you can use the loader and normal :-
 
-REGISTER lib/json-simple-1.1.jar;
+REGISTER lib/pig-json-util.jar;
 A = ...
-STORE A INTO 'test.json' USING uk.co.danharvey.pig.storage.JsonStorage();
+STORE A INTO 'test.json' USING uk.co.danharvey.pig.storage.json.JsonStorage();
 
 == ToDo
 
